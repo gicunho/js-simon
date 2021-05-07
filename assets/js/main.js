@@ -73,4 +73,5 @@ Eccoli: ${numeriGiusti}`
     console.log('numeri scelti da utente =' + numeriUtente);
     console.log('numeri giusti ' + numeriGiusti);
     console.log(messaggio);
+    document.getElementById('messaggio').innerHTML = messaggio;
 }, 30000)
